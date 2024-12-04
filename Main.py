@@ -2,6 +2,9 @@ from Juego import Juego
 
 class Main():
     def main():
-        mijuego = Juego()
+        try:
+            mijuego = Juego()
+        except KeyboardInterrupt as e:
+            print("Hasta Pronto!")
         
     main()
